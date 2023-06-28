@@ -1,0 +1,2 @@
+# skipMDM
+activation unlock
