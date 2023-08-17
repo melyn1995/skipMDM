@@ -1,12 +1,12 @@
-# skipMDM
-activation unlock
-0000255E3A07C02E
-"iPhone_11_128GB_white_(activate"bypass MDM)"
-"16.5(20F66)_iOs_version"
-"PRODUCT_TYPE="iPhone12,1 (A2221)"=activate_unlock
-"README_DATA" =()
-(SALES_DATA_MODEL'[MHDJ3 ZP/A]'_IMEI_"[350263900815960]"Serial#_"[DX3JCACQN73F]"_ecid_"{0000255E3A07C02E}"=
-{"duration_ms":"660145","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 16.5 (20F66)","slice_uuid":"D2F695AB-CD14-3A45-AE80-9D0900550A63","is_first_party":0,"incident_id":"665783B8-D8C3-45E9-A2A1-AC7F362A3302","timestamp":"2023-06-27 02:27:33.00 -0700","app_name":"afcd","name":"afcd"}
+# Read Passcode
+# Device Passcode unlock
+# Read Device Owner Fullname
+"iPhone_11"
+"16.5_iOs_version"
+"PRODUCT_TYPE="iPhone12,1 (A2221)=passcode_unlock
+"README_DATA" =(Owner Fullname)
+(DeviceData_IMEI_"[351088548588128]"Serial#_"[DX3K7YWHN73D]"_ecid_"{Unknown}"=
+{"duration_ms":"660145","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 16.5 (20F66)","slice_uuid":"D2F695AB-CD14-3A45-AE80-9D0900550A63","is_first_party":0,"incident_id":"665783B8-D8C3-45E9-A2A1-AC7F362A3302","timestamp":"2023-06-27 02:27:33.00 -0700","app_name":"Passcode","name":"afcd"}
 Date/Time:        2023-06-27 02:16:30.865 -0700
 End time:         2023-06-27 02:27:31.009 -0700
 OS Version:       iPhone OS 16.5 (Build 20F66)
@@ -25,7 +25,7 @@ Parent:           UNKNOWN [1]
 PID:              299
 
 Event:            disk writes
-Action taken:     none
+Action taken:     Read
 Writes:           1074.31 MB of file backed memory dirtied over 660 seconds (1627.38 KB per second average), exceeding limit of 12.43 KB per second over 86400 seconds
 Writes limit:     1073.74 MB
 Limit duration:   86400s
@@ -62,7 +62,7 @@ Heaviest stack for the target process:
 
 
 Powerstats for:   afcd [299]
-UUID:             D2F695AB-CD14-3A45-AE80-9D0900550A63
+UUID:          Unknown
 Path:             /usr/libexec/afcd
 Resource Coalition ID: 470
 Architecture:     arm64e
@@ -86,9 +86,10 @@ Power Source:     0 samples on Battery, 102 samples on AC
                 102  ??? (libsystem_kernel.dylib + 9816) [0x200c1d658]
 
   Binary Images:
-           0x10276c000 -                ???  afcd                    <D2F695AB-CD14-3A45-AE80-9D0900550A63>  /usr/libexec/afcd
+           0x10276c000 -                ???  afcd                    <Unknown>  /usr/libexec/afcd
            0x1c917b000 -        0x1c91c1fff  libdispatch.dylib       <BB347F0E-F21C-3607-82E6-C8D750FDBF8C>  /usr/lib/system/libdispatch.dylib
            0x200c1b000 -        0x200c52ff7  libsystem_kernel.dylib  <2F783110-9739-3F18-A234-5FB92512529D>  /usr/lib/system/libsystem_kernel.dylib
-           0x221a5c000 -        0x221a67ff3  libsystem_pthread.dylib <8894310A-745F-3407-99F0-1FD54442561D>  /usr/lib/system/libsystem_pthread.dylib
-"Unlocking_code"_"[success"]
-Activation_"request"
+           0x221a5c000 -        0x221a67ff3  libsystem_pthread.dylib <8894310A-745F-3407-99F0-1FD54442561D>  /usr/lib/system/libsystem_pthread.dyl
+           Read_passcode"_"[success"]
+           Readme_"request"
+Information Access
